@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RozkladSharp.Domain", "Rozk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RozkladSharp.DomainServices", "RozkladSharp.DomainServices\RozkladSharp.DomainServices.csproj", "{D980B342-E6FC-457F-B1AE-88E86CE8FED6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RozkladSharp.Frontend", "RozkladSharp.Frontend\RozkladSharp.Frontend.csproj", "{CE918636-8260-4066-A4C4-E9AE8D203102}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D980B342-E6FC-457F-B1AE-88E86CE8FED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D980B342-E6FC-457F-B1AE-88E86CE8FED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D980B342-E6FC-457F-B1AE-88E86CE8FED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE918636-8260-4066-A4C4-E9AE8D203102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE918636-8260-4066-A4C4-E9AE8D203102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE918636-8260-4066-A4C4-E9AE8D203102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE918636-8260-4066-A4C4-E9AE8D203102}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
