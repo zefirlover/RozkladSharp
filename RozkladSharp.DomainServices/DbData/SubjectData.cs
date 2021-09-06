@@ -11,6 +11,7 @@ namespace RozkladSharp.DomainServices
                 new Subject { Id = 1, Name = "Meth" },
                 new Subject { Id = 2, Name = "Кєкос" }
             );
+            context.SaveChanges();
         }
     }
 }

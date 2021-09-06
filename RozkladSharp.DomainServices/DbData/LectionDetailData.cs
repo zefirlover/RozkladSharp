@@ -15,11 +15,12 @@ namespace RozkladSharp.DomainServices
                     IsOnline = false,
                     IsPractice = true,
                     LectionId = 0,
-                    OrderInShedule = "1",
-                    WeekdayInShedule = "Tuesday",
+                    OrderInShedule = 1,
+                    WeekdayInShedule = WeekdaysInShedule.Tuesday,
                     StudentsGroup = "IA-69"
                 }
             );
+            context.SaveChanges();
         }
     }
 }

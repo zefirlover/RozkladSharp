@@ -20,6 +20,7 @@ namespace RozkladSharp.DomainServices
                     Id = 2, FirstName = "Кек", LastName = "Дебілович", TelephoneNumber = "380690694242", StudentSheduleId = 2
                 }
             );
+            context.SaveChanges();
         }
     }
 }

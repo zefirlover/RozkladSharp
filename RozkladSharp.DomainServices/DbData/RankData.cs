@@ -13,6 +13,7 @@ namespace RozkladSharp.DomainServices
                 new Rank { Id = 3, Name = "старший викладач" },
                 new Rank { Id = 4, Name = "професор" }
             );
+            context.SaveChanges();
         }
     }
 }

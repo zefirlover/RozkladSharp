@@ -11,6 +11,7 @@ namespace RozkladSharp.DomainServices
                 new Teacher { Id = 1, Name = "Масабанда Тібан Дмитро ВамБан", RankId = 0, TeacherSheduleId = 1 },
                 new Teacher { Id = 2, Name = "Бля мені лєнь", RankId = 4, TeacherSheduleId = 2}
             );
+            context.SaveChanges();
         }
     }
 }
